@@ -111,3 +111,10 @@ li{
     font-weight: 800;
     font-size: 2rem;
 }
+
+/*Media Query*/
+@media (max-width: 425px){
+    .section1,.section2, .section3, .section4{
+        padding: 5% 10% 8% 10%;
+    }
+}
