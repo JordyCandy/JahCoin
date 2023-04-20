@@ -210,4 +210,9 @@ body{
         text-align: center;
         padding-top: 150px;
     }
+
+    .sectionfour{
+        padding: 10% 15% 3% 15%;
+        text-align: center;
+    }
 }
