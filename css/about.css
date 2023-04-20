@@ -98,7 +98,7 @@ li{
 /*Media query*/
 @media (max-width: 768px){
     /*NavBar*/
-    .navBar{
+    .size{
         font-size: 20px;
     }
 

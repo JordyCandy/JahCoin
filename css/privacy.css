@@ -86,7 +86,7 @@ li{
 }
 
 @media (max-width: 768px){
-    .navBar{
+    .size{
         font-size: 20px;
     }
     /*Section2*/

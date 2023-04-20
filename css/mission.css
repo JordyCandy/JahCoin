@@ -26,7 +26,7 @@ body{
 }
 
 .section2{
-    background-color: #c6c4c4;
+    background-color: white;
     padding: 5% 0 8% 10%;
 }
 
@@ -113,8 +113,61 @@ li{
 }
 
 /*Media Query*/
-@media (max-width: 425px){
-    .section1,.section2, .section3, .section4{
-        padding: 5% 10% 8% 10%;
+@media (max-width: 768px){
+    .size{
+        font-size: 20px;
     }
-}
+
+    .exception{
+    font-size: 10px;
+    width: 250px;
+    }
+    .jahImg{
+        padding-top: 5%;
+        width: 100px;
+    }
+
+    .s2m1{
+        padding-top: 9%;
+        font-size: 30px;
+    }
+
+    .sm1{
+        width:260px;
+        font-size:30px;
+    }
+
+    .sm2{
+        width: 230px;
+        font-size: 10px;
+    }
+
+    .s3m1{
+        font-size: 30px;
+    }
+
+    .s3m2{
+        width: 250px;
+        font-size:9px;
+    }
+
+    /*section 4*/
+    .section4{
+        padding: 10% 15% 1% 5%;
+    }
+
+   .endLink{
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+
+    .link{
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    p{
+        margin: 0;
+    }
+    }
