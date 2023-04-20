@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;600&display=swap');
+
+#sectionOne, #sectionTwo, #sectionThree{
+    padding: 15% 0 15% 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    color:rgb(54, 53, 53);
+}
+
+.container-fluid{
+    border: 1 solid black;
+}
+
+.navbar-brand{
+    color: black;
+    font-family: "Anuphan";
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.starting{
+    padding-left: 12%;
+    color: #808080;
+}
+
+#sectionOne{
+    font-family: "Anupham";
+    background-color: #ecebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 7% 0 8% 10%;
+    position: relative;
+}
+
+.cost{
+    padding: 5% 0 5% 0;
+    border-left: 2px solid grey;
+}
+
+.paraOne{
+    padding-bottom: 5%;
+}
+
+#sectionTwo{
+    padding: 5% 0 5% 0;
+    background-color: white;
+    text-align: center;
+}
+
+.con{
+    margin-left: 3%;
+}
+
+.guarantee{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #808080;
+     }
+
+#sectionThree{
+    background-color: #ecebeb;
+    display: flex;
+    flex: 1fr;
+    padding: 7% 15% 10% 15%;
+    align-items: center;
+    justify-content: space-evenly;
+    color:rgb(54, 53, 53);
+}
+
+body{
+    margin: 0;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Anupham";
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.navBar{
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.free{
+    text-decoration: underline;
+}
+
+.fontText{
+    display: flex;
+    justify-content: space-between;
+    flex: 1fr;
+}
+
+.textOne{
+    font-size: 1.5rem;
+}
+
+.textTwo{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.jahSlogan{
+    margin-top: 5%;
+    font-family: "Anupham";
+    font-weight: 600;
+    color: #808080;
+}
+
+.jh{
+    width: 50px;
+    margin-right: 3px;
+}
+
+@media (max-width: 768px){
+    .jahImg{
+        width: 70px;
+    }
+
+    #sectionThree{
+        display: flex;
+        flex-direction: column;
+    }
+}
