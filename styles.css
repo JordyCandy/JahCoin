@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;600&display=swap');
 
 #sectionOne, #sectionTwo, #sectionThree{
-    padding: 15% 0 15% 0;
+    /* padding: 15% 0 15% 0; */
     margin-bottom: 0;
     margin-top: 0;
     color:rgb(54, 53, 53);
@@ -48,8 +48,31 @@
     text-align: center;
 }
 
+.sectionFour{
+    display: flex;
+    padding: 7% 15% 3% 15%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #535353;
+}
+
+.endLink{
+    color: #797777;
+    font-family: "Anupham";
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.info{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
 .con{
-    margin-left: 3%;
+    margin-left: 1%;
 }
 
 .guarantee{
@@ -89,7 +112,7 @@ body{
     color: black;
 }
 
-.free{
+.free:hover{
     text-decoration: underline;
 }
 
@@ -113,6 +136,16 @@ body{
     font-family: "Anupham";
     font-weight: 600;
     color: #808080;
+}
+
+.link{
+    color: #929191;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color:#808080;
 }
 
 .jh{
