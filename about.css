@@ -31,7 +31,7 @@ body{
 .navBar{
     margin-bottom: 0;
     border-bottom: 1px solid black;
-    background-color:#f5f4f4;
+    background-color:white;
 }
 
 .nav-link{
@@ -96,13 +96,41 @@ li{
 }
 
 /*Media query*/
-@media (max-width: 425px){
+@media (max-width: 768px){
+    /*NavBar*/
+    .navBar{
+        font-size: 20px;
+    }
+
+    /*Section 1*/
+    .section1{
+        padding: 10% 10% 3% 5%;
+    }
     .text1, .text2, .text3, .text4{
         font-size: 10px;
         width: 380px;
     }
 
     .text5{
-        font-size: 30px;
+        font-size: 15px;
+    }
+
+/*section 2*/
+    .section2{
+        padding: 10% 15% 1% 5%;
+    }
+
+   .endLink{
+        font-size: 15px;
+    }
+
+    .link{
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    p{
+        margin: 0;
     }
 }
