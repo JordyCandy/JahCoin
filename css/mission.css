@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;600&display=swap');
 
 body{
-    font-family: "Anupham";
+    font-family: "Anuphan";
 }
 
 .container-fluid{
@@ -83,7 +83,7 @@ body{
 
 .nav-link{
     color: black;
-    font-family: "Anupham";
+    font-family: "Anuphan";
     font-weight: 400;
     font-size: 1.5rem;
 }
@@ -107,7 +107,7 @@ li{
 
 .endLink{
     color: #797777;
-    font-family: "Anupham";
+    font-family: "Anuphan";
     font-weight: 800;
     font-size: 2rem;
 }

@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;600&display=swap');
 
-
 body{
-    font-family: "Anupham";
+    font-family: "Anuphan";
     margin: none;
 }
 /*Navbar*/
@@ -36,35 +35,26 @@ body{
 
 .nav-link{
     color: #535353;
-    font-family: "Anupham";
     font-weight: 400;
     font-size: 1.5rem;
 }
 
-/*Next Section*/
-.section1{
-    background-color:  #535353;
-    padding: 5% 0 8% 10%;
-    color: rgb(193, 193, 193);
+/*section2*/
+.section2{
+    padding: 15%;
+    text-align: center;
 }
 
-.text1, .text2, .text3, .text4{
-    width: 1000px;
-}
-
-.text2,  .text3, .text4{
-    padding-top: 5%;
-}
-
-.text5{
-    padding-top: 10%;
-    color:#999696;
+.policy{
+    font-family: "Anuphan";
+    font-weight: 800;
+    font-size: 3rem;
 }
 
 /*footer*/
 .endLink{
     color: #797777;
-    font-family: "Anupham";
+    font-family: "Anuphan";
     font-weight: 800;
     font-size: 2rem;
 }
@@ -87,37 +77,24 @@ li{
     list-style: none;
 }
 
-.section2{
+.section3{
     display: flex;
-    padding: 10% 15% 3% 10%;
+    padding: 5% 15% 3% 10%;
     background-color: #f5f4f4;
     align-items: center;
     justify-content: space-around;
 }
 
-/*Media query*/
 @media (max-width: 768px){
-    /*NavBar*/
     .navBar{
         font-size: 20px;
     }
-
-    /*Section 1*/
-    .section1{
-        padding: 10% 3% 3% 3%;
+    /*Section2*/
+    h1{
+        font-size: 1rem;
     }
-    .text1, .text2, .text3, .text4{
-        padding: 10% 5% 3% 5%;
-        font-size: 10px;
-        width: 320px;
-    }
-
-    .text5{
-        font-size: 15px;
-    }
-
-/*section 2*/
-    .section2{
+    /*Footer*/
+    .section3{
         padding: 10% 15% 1% 5%;
     }
 

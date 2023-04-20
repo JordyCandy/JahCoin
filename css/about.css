@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;600&display=swap');
+
+
+body{
+    font-family: "Anuphan";
+    margin: none;
+}
+/*Navbar*/
+
+.container-fluid{
+    border: 1 solid black;
+}
+
+.navbar-brand{
+    color: #918d8d;
+    font-family: "Anuphan";
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.jh{
+    width: 50px;
+    margin-right: 3px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.navBar{
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    background-color:white;
+}
+
+.nav-link{
+    color: #535353;
+    font-family: "Anuphan";
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+/*Next Section*/
+.section1{
+    background-color:  #535353;
+    padding: 5% 0 8% 10%;
+    color: rgb(193, 193, 193);
+}
+
+.text1, .text2, .text3, .text4{
+    width: 1000px;
+}
+
+.text2,  .text3, .text4{
+    padding-top: 5%;
+}
+
+.text5{
+    padding-top: 10%;
+    color:#999696;
+}
+
+/*footer*/
+.endLink{
+    color: #797777;
+    font-family: "Anuphan";
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.link{
+    color: #acaaaa;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color:#acaaaa;
+}
+
+.info{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+.section2{
+    display: flex;
+    padding: 10% 15% 3% 10%;
+    background-color: #f5f4f4;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Media query*/
+@media (max-width: 768px){
+    /*NavBar*/
+    .navBar{
+        font-size: 20px;
+    }
+
+    /*Section 1*/
+    .section1{
+        padding: 10% 3% 3% 3%;
+    }
+    .text1, .text2, .text3, .text4{
+        padding: 10% 10% 3% 5%;
+        font-size: 10px;
+        width: 320px;
+    }
+
+    .text5{
+        font-size: 15px;
+    }
+
+/*section 2*/
+    .section2{
+        padding: 10% 15% 1% 5%;
+    }
+
+   .endLink{
+        font-size: 15px;
+    }
+
+    .link{
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    p{
+        margin: 0;
+    }
+}
